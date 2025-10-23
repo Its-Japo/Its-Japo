@@ -6,9 +6,8 @@
 <p align="center">
   <!-- Badges (optional) -->
   <a href="https://YOUR_WEBSITE_OR_LINKTREE"><img src="https://img.shields.io/badge/Website-000?style=for-the-badge&logo=About.me&logoColor=white" /></a>
-  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://twitter.com/YOUR_TWITTER"><img src="https://img.shields.io/badge/Twitter-111?style=for-the-badge&logo=x&logoColor=white" /></a>
+  <a href="mailto:joaquin.puenteg@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/joaquin-puente/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <!-- <img src="https://komarev.com/ghpvc/?username=YOURUSER&style=for-the-badge" alt="profile views" /> -->
 </p>
 
