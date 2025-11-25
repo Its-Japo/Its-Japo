@@ -25,10 +25,15 @@
 <!-- Use skillicons.dev to auto-render icons. Edit the list freely. -->
 <h1> Front end development </h1>
 <p>
-  <img src="https://skillicons.dev/icons?i=js,ts,react,angular,vue,css,tailwind&perline=12" />
+  <img src="https://skillicons.dev/icons?i=js,ts,css,tailwind,html,react,angular,vue,nextjs,figma&perline=12" />
 </p>
+<h1> Back end development </h1>
 <p>
-  <img src="https://skillicons.dev/icons?i=js,ts,python,go,java,react,nextjs,nodejs,express,vue,nuxt,html,css,tailwind,astro,redux,vitest,jest,postgres,mysql,sqlite,mongodb,redis,prisma,graphql,apollo,fastapi,django,flask,aws,gcp,azure,docker,kubernetes,terraform,linux,git,github,gitlab,figma&perline=12" />
+  <img src="https://skillicons.dev/icons?i=js,ts,python,go,java,spring,rust,axum,nextjs,nodejs,express,jest,postgres,mysql,sqlite,mongodb,redis,prisma,graphql,apollo,fastapi,django,flask,aws,gcp,azure,docker,kubernetes,terraform,linux,git,github,gitlab,figma&perline=12" />
+</p>
+<h1> Database </h1>
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,redisperline=12" />
 </p>
 
 
