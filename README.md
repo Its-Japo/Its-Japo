@@ -14,19 +14,23 @@
 ---
 
 ### 👋 About me
-- 🎯 **Role:** YOUR_CURRENT_ROLE (e.g., Software Engineer @ COMPANY)
-- 🧠 **Focus:** YOUR_INTERESTS (e.g., LLM apps, data viz, DevEx)
-- 🛠️ **Currently building:** YOUR_PROJECT (short blurb + link)
-- 📚 **Learning:** WHAT_YOU_ARE_LEARNING
-- 🤝 **Open to:** COLLABS / MENTORSHIP / FREELANCE
-- 🌍 **Location/Time zone:** CITY, COUNTRY (OPTIONAL)
+- 🎯 **Role:** Full Stack Software Engineer @ Paggoapp Guatemala
+- 🧠 **Focus:** Cloud Computing, Ai, Machine Learning, LLM's, Cibersecurity, Mathematics
+- 📚 **Learning:** Autonomous agent development
+- 🤝 **Open to:** COLLABS / MENTORSHIP / FREELANCE / WORK
+- 🌍 **Location/Time zone:** GUATEMALA CITY (UTC-6)
 
 <!-- Skills / Stack -->
 ### 🧰 Tech stack
 <!-- Use skillicons.dev to auto-render icons. Edit the list freely. -->
+<h1> Front end development </h1>
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,react,angular,vue,css,tailwind&perline=12" />
+</p>
 <p>
   <img src="https://skillicons.dev/icons?i=js,ts,python,go,java,react,nextjs,nodejs,express,vue,nuxt,html,css,tailwind,astro,redux,vitest,jest,postgres,mysql,sqlite,mongodb,redis,prisma,graphql,apollo,fastapi,django,flask,aws,gcp,azure,docker,kubernetes,terraform,linux,git,github,gitlab,figma&perline=12" />
 </p>
+
 
 <!-- Highlights -->
 ### 🚀 Highlights
