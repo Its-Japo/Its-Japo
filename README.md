@@ -51,7 +51,7 @@
 - 💼 LinkedIn: https://www.linkedin.com/in/joaquin-puente/
 - 🌐 Portfolio: https://YOUR_WEBSITE
 
-### Motto
+### If you're intrested
 > If there's no money, I also accept coffee
 ---
 

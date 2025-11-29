@@ -1,0 +1,10 @@
+export { Navbar } from "./Navbar";
+export { Hero } from "./Hero";
+export { About } from "./About";
+export { TechStack } from "./TechStack";
+export { Projects } from "./Projects";
+export { Experience } from "./Experience";
+export { Certificates } from "./Certificates";
+export { Contact } from "./Contact";
+export { Footer } from "./Footer";
+export { AnimatedSection, StaggeredContainer } from "./AnimatedSection";
