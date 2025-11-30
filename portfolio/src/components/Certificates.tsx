@@ -62,25 +62,22 @@ export function Certificates() {
               className="group cursor-pointer bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700/50 hover:border-cyan-400/30 transition-all hover:transform hover:scale-[1.02]"
             >
               {/* Certificate Preview */}
-              <div className="aspect-[4/3] bg-gray-900 relative overflow-hidden">
+              <div className="aspect-[4/3] bg-gradient-to-br from-gray-800 to-gray-900 relative overflow-hidden">
                 {cert.thumbnail ? (
                   <img
                     src={cert.thumbnail}
                     alt={cert.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-                ) : cert.file ? (
-                  <iframe
-                    src={`${cert.file}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
-                    className="w-full h-full pointer-events-none"
-                    title={`${cert.title} preview`}
-                  />
                 ) : (
-                  <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-cyan-900/40 to-purple-900/40">
-                    <FileText className="w-12 h-12 text-cyan-400/70 mb-2" />
-                    <span className="text-gray-300 text-xs uppercase tracking-wider">
-                      PDF Certificate
-                    </span>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
+                    <div className="w-16 h-16 rounded-full bg-gradient-to-br from-cyan-400/20 to-purple-500/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                      <FileText className="w-8 h-8 text-cyan-400" />
+                    </div>
+                    <h4 className="text-white font-semibold text-sm mb-1 line-clamp-2">
+                      {cert.title}
+                    </h4>
+                    <p className="text-cyan-400 text-xs">{cert.issuer}</p>
                   </div>
                 )}
                 {/* Hover overlay */}
@@ -158,7 +155,7 @@ export function Certificates() {
 
             {/* PDF Viewer */}
             <div
-              className="w-full h-full max-w-5xl max-h-[90vh] mx-4 flex flex-col"
+              className="w-full max-w-4xl mx-4 flex flex-col"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Header */}
@@ -173,11 +170,11 @@ export function Certificates() {
                 </p>
               </div>
 
-              {/* PDF Embed */}
-              <div className="flex-1 bg-gray-800 rounded-b-xl overflow-hidden">
+              {/* PDF Embed - Fixed aspect ratio for consistent sizing */}
+              <div className="relative bg-gray-800 rounded-b-xl overflow-hidden" style={{ aspectRatio: '4/3' }}>
                 <iframe
-                  src={`${certificates[selectedCert].file}#toolbar=0&navpanes=0`}
-                  className="w-full h-full min-h-[70vh]"
+                  src={`${certificates[selectedCert].file}#toolbar=0&navpanes=0&view=Fit`}
+                  className="absolute inset-0 w-full h-full"
                   title={certificates[selectedCert].title}
                 />
               </div>

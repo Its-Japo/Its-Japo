@@ -245,7 +245,7 @@ export interface Certificate {
 // Place PDF files in: public/certificates/
 export const certificates: Certificate[] = [
   {
-    id: "cert-1",
+    id: "AWSCloudArchitect",
     title: "AWS Cloud Architect",
     issuer: "Amazon Web Services",
     date: "2025",
@@ -253,13 +253,22 @@ export const certificates: Certificate[] = [
     file: "/certificates/AWSCloudArchitect.pdf",
   },
   {
-    id: "cert-2",
+    id: "GoogleProjectManager",
     title: "Project Management",
     issuer: "Google",
     date: "2025",
     description: "Project management certification",
     file: "/certificates/ProjectManagement.pdf",
   },
+  {
+    id: "Udemy1",
+    title: "MEAN Full-Stack Developer",
+    issuer: "Udemy",
+    date: "2024",
+    description: "Full Stack software development using the MEAN Stack",
+    file: "/certificates/MEANStackDeveloper.pdf",
+  },
+
 ];
 
 // EmailJS Configuration
