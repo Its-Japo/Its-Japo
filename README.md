@@ -52,7 +52,7 @@
 - 🌐 Portfolio: https://joaquinpuente.dev
 
 ### If you're intrested
-> If there's no money, I also accept coffee
+> I accept Visa, Mastercard and Coffee
 ---
 
 <!-- Footer -->

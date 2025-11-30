@@ -113,7 +113,7 @@ export function Contact() {
             {/* Coffee CTA */}
             <div className="mt-8 p-6 bg-gradient-to-r from-cyan-900/20 to-purple-900/20 rounded-xl border border-cyan-400/20">
               <p className="text-gray-300 italic">
-                "I accept Visa, Mastercard or Coffee" ☕
+                "I accept Visa, Mastercard and Coffee" ☕
               </p>
             </div>
           </AnimatedSection>
