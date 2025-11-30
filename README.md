@@ -5,7 +5,7 @@
 
 <p align="center">
   <!-- Badges (optional) -->
-  <a href="https://YOUR_WEBSITE_OR_LINKTREE"><img src="https://img.shields.io/badge/Website-000?style=for-the-badge&logo=About.me&logoColor=white" /></a>
+  <a href="https://joaquinpuente.dev"><img src="https://img.shields.io/badge/Website-000?style=for-the-badge&logo=About.me&logoColor=white" /></a>
   <a href="mailto:joaquin.puenteg@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/joaquin-puente/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <!-- <img src="https://komarev.com/ghpvc/?username=YOURUSER&style=for-the-badge" alt="profile views" /> -->
@@ -49,7 +49,7 @@
 ### 🤙 Get in touch
 - ✉️ Email: joaquin.puenteg@outlook.com
 - 💼 LinkedIn: https://www.linkedin.com/in/joaquin-puente/
-- 🌐 Portfolio: https://YOUR_WEBSITE
+- 🌐 Portfolio: https://joaquinpuente.dev
 
 ### If you're intrested
 > If there's no money, I also accept coffee
