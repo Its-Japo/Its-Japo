@@ -2,3 +2,7 @@
 portfolio/node_modules/
 
 portfolio/dist/
+
+.env
+
+docs/AWS_DEPLOYMENT_GUIDE.md

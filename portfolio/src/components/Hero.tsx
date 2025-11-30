@@ -32,7 +32,7 @@ export function Hero() {
             <img
               src={personalInfo.avatar}
               alt={personalInfo.name}
-              className="w-32 h-32 rounded-full mx-auto border-4 border-cyan-400/30 shadow-lg shadow-cyan-400/20"
+              className="w-32 h-32 rounded-full mx-auto border-4 border-cyan-400/30 shadow-lg shadow-cyan-400/20 object-cover"
             />
           ) : (
             <div className="w-32 h-32 rounded-full mx-auto bg-gradient-to-br from-cyan-400 to-purple-500 flex items-center justify-center text-4xl font-bold text-white shadow-lg shadow-cyan-400/20">

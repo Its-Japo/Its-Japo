@@ -39,19 +39,19 @@ export function Experience() {
 
               {/* Content */}
               <div className="ml-8 md:ml-0 p-6 bg-gray-800/50 rounded-xl border border-gray-700/50 hover:border-cyan-400/30 transition-colors">
-                <div className="flex items-start gap-4 mb-4">
+                <div className="flex flex-col items-center gap-4 mb-4">
                   {exp.logo ? (
                     <img
                       src={exp.logo}
                       alt={exp.company}
-                      className="w-12 h-12 rounded-lg object-cover"
+                      className="h-[60px] w-auto max-w-[200px] object-contain"
                     />
                   ) : (
                     <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-cyan-400/20 to-purple-500/20 flex items-center justify-center">
                       <Briefcase className="w-6 h-6 text-cyan-400" />
                     </div>
                   )}
-                  <div className="flex-1">
+                  <div>
                     <h3 className="text-xl font-semibold text-white">
                       {exp.position}
                     </h3>

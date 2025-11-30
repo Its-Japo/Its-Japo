@@ -3,6 +3,8 @@
 // Edit this file to customize your portfolio
 // ============================================
 
+// Profile picture
+import itsJapo from "../assets/me.png"
 // Project images - Document Manager
 import gdLoginImg from "../assets/projects/gdLogin.png";
 import gdFileTreeImg from "../assets/projects/gdFileTree.jpeg";
@@ -14,6 +16,11 @@ import mcMarkImg from "../assets/projects/mcMark.png";
 import mcRegisterImg from "../assets/projects/mcRegister.png";
 // Project images - AI Business Classifier
 import rsAiAgentImg from "../assets/projects/rsAiAgent.png";
+// Work logos
+import paggoLogo from "../assets/work_logos/paggo.png";
+import calzadoRoyLogo from "../assets/work_logos/Logo-Calzado-Roy-Blanco.webp";
+
+
 
 export const personalInfo = {
   name: "Joaquin Puente",
@@ -22,8 +29,8 @@ export const personalInfo = {
   email: "joaquin.puenteg@outlook.com",
   location: "Guatemala City, Guatemala",
   timezone: "UTC-6",
-  avatar: "", // Add your avatar URL or leave empty for initials
-  resumeUrl: "", // Add link to your resume PDF
+  avatar: itsJapo,// Add your avatar URL or leave empty for initials
+  resumeUrl: "/resume/JoaquinPuente_Resume.pdf", // Served from public/resume/
   social: {
     linkedin: "https://www.linkedin.com/in/joaquin-puente/",
     github: "https://github.com/Its-Japo", // Update with your GitHub
@@ -132,7 +139,7 @@ export const projects: Project[] = [
     image: rsAiAgentImg,
     images: [],
     liveUrl: "",
-    githubUrl: "https://github.com/Its-Japo/project",
+    githubUrl: "",
     featured: true,
   },
   {
@@ -174,7 +181,7 @@ export interface Experience {
   position: string;
   location: string;
   startDate: string;
-  endDate: string; // Use "Present" for current job
+  endDate: string;
   description: string;
   achievements: string[];
   technologies: string[];
@@ -187,36 +194,34 @@ export const experiences: Experience[] = [
     company: "Paggoapp",
     position: "Full Stack Software Engineer",
     location: "Guatemala City, Guatemala",
-    startDate: "2023",
+    startDate: "2025",
     endDate: "Present",
     description:
-      "Building and maintaining scalable financial technology solutions for the Guatemalan market.",
+      "Building and improving the suite of digital products paggo offers to their clients",
     achievements: [
-      "Developed and deployed microservices architecture serving thousands of daily users",
-      "Implemented CI/CD pipelines reducing deployment time by 60%",
-      "Led technical design sessions and code reviews for the engineering team",
-      "Optimized database queries improving application performance by 40%",
-    ],
-    technologies: ["React", "Node.js", "PostgreSQL", "AWS", "Docker"],
-    logo: "",
-  },
-  // Add more experiences as needed
-  {
-    id: "exp-2",
-    company: "Previous Company",
-    position: "Software Developer",
-    location: "Guatemala City, Guatemala",
-    startDate: "2021",
-    endDate: "2023",
-    description:
-      "Worked on web application development and maintenance for various clients.",
-    achievements: [
-      "Built responsive web applications using modern frontend frameworks",
-      "Collaborated with design team to implement pixel-perfect UI components",
+      "Implemented AI agents and products to optimize back office workflows originally done manually",
+      "Implementation of security features for the mobile application.",
       "Participated in agile development processes and sprint planning",
     ],
-    technologies: ["JavaScript", "React", "Python", "MySQL"],
-    logo: "",
+    technologies: ["React", "Node.js", "Express", "MySQL", "Docker", "AWS", "Linux"],
+    logo: paggoLogo,
+  },
+  {
+    id: "exp-2",
+    company: "Calzado Roy",
+    position: "Full Stack Software Developer",
+    location: "Guatemala City, Guatemala",
+    startDate: "2024",
+    endDate: "2025",
+    description:
+      "Developed back office software to optimize all departments every day tasks",
+    achievements: [
+      "Developed and deployed services while keeping everything operational",
+      "Developed fully functional full stack applications with various stacks",
+      "Client support experience by providing IT support to all 74 stores",
+    ],
+    technologies: ["Javascript", "Typescript", "Angular", "NextJS", "Node.js", "Express", "Java", "Spring Boot", "Oracle", "Linux"],
+    logo: calzadoRoyLogo,
   },
 ];
 

@@ -80,7 +80,7 @@ export function Contact() {
               Let's work together
             </h3>
             <p className="text-gray-400 mb-8">
-              I'm always open to discussing new projects, creative ideas, or
+              I'm always open to discussing new projects, ideas, or
               opportunities to be part of your vision. Whether you have a question
               or just want to say hi, I'll try my best to get back to you!
             </p>
@@ -113,7 +113,7 @@ export function Contact() {
             {/* Coffee CTA */}
             <div className="mt-8 p-6 bg-gradient-to-r from-cyan-900/20 to-purple-900/20 rounded-xl border border-cyan-400/20">
               <p className="text-gray-300 italic">
-                "If there's no money, I also accept coffee" ☕
+                "I accept Visa, Mastercard or Coffee" ☕
               </p>
             </div>
           </AnimatedSection>
