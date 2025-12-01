@@ -51,11 +51,19 @@ export function Hero() {
             {personalInfo.name}
           </span>
         </h1>
+        {/* Title & Profession */}
+        <div className="mb-6">
+          <p className="text-lg md:text-xl text-gray-400 mb-2">
+            {personalInfo.title}
+          </p>
+          <p className="text-xl md:text-2xl font-semibold">
+            <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">
+              {personalInfo.profession}
+            </span>
+          </p>
+        </div>
 
-        {/* Title */}
-        <p className="text-xl md:text-2xl text-gray-400 mb-4">
-          {personalInfo.title}
-        </p>
+
 
         {/* Tagline */}
         <p className="text-lg text-gray-500 mb-8 max-w-2xl mx-auto">

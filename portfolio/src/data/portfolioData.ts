@@ -33,7 +33,8 @@ import calzadoRoyLogo from "../assets/work_logos/Logo-Calzado-Roy-Blanco.webp";
 
 export const personalInfo = {
   name: "Joaquin Puente",
-  title: "Full Stack Software Engineer",
+  profession: "Full Stack Software Engineer",
+  title: "Computer Scientist & Mathematician",
   tagline: "The real currency should be coffee",
   email: "joaquin.puenteg@outlook.com",
   location: "Guatemala City, Guatemala",
