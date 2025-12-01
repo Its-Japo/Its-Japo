@@ -16,6 +16,15 @@ import mcMarkImg from "../assets/projects/mcMark.png";
 import mcRegisterImg from "../assets/projects/mcRegister.png";
 // Project images - AI Business Classifier
 import rsAiAgentImg from "../assets/projects/rsAiAgent.png";
+// Project images - Current Budget Manager
+import cbm0 from "../assets/projects/cbm_00.png";
+import cbm1 from "../assets/projects/cbm_01.png";
+import cbm2 from "../assets/projects/cbm_02.png";
+import cbm3 from "../assets/projects/cbm_03.png";
+import cbm4 from "../assets/projects/cbm_04.png";
+import cbm5 from "../assets/projects/cbm_05.png";
+import cbm6 from "../assets/projects/cbm_06.png";
+
 // Work logos
 import paggoLogo from "../assets/work_logos/paggo.png";
 import calzadoRoyLogo from "../assets/work_logos/Logo-Calzado-Roy-Blanco.webp";
@@ -90,6 +99,7 @@ export const techStack = {
       { name: "MongoDB", icon: "mongodb" },
       { name: "Redis", icon: "redis" },
       { name: "SQLite", icon: "sqlite" },
+      { name: "DynamoDB", icon: "dynamodb" },
     ],
   },
   cloud: {
@@ -159,6 +169,20 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "currentBM",
+    title: "Current - Budget Manager",
+    description: "Web application for users to track expenses with currency convertion",
+    longDescription: `Developed a web utility for users to track in a very organized and
+    meticulous way their expenses. Setting un email alerts, budget limits, dashboard for tracking
+    categories and setting up different accounts`,
+    technologies: ["Next.js", "Vue.js", "AWS", "DynamoDB"],
+    image: cbm0,
+    images: [cbm1, cbm2, cbm3, cbm4, cbm5, cbm6],
+    liveUrl: "",
+    githubUrl: "",
+    featured: true,
+  },
+  {
     id: "fpMarker",
     title: "Fingerprint Marking App",
     description: "Web application for employees to mark assistance with fingerprint",
@@ -171,8 +195,9 @@ export const projects: Project[] = [
     images: [mcRegisterImg],
     liveUrl: "",
     githubUrl: "",
-    featured: true,
+    featured: false,
   },
+
 ];
 
 export interface Experience {
