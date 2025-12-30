@@ -24,6 +24,14 @@ import cbm3 from "../assets/projects/cbm_03.png";
 import cbm4 from "../assets/projects/cbm_04.png";
 import cbm5 from "../assets/projects/cbm_05.png";
 import cbm6 from "../assets/projects/cbm_06.png";
+// Project images - Helpdesk
+import hd1 from "../assets/projects/hd_01.png";
+import hd2 from "../assets/projects/hd_02.png";
+import hd3 from "../assets/projects/hd_03.png";
+// Project images - nyCloud
+import ny1 from "../assets/projects/ny_01.png";
+import ny2 from "../assets/projects/ny_02.png";
+import ny3 from "../assets/projects/ny_03.png";
 
 // Work logos
 import paggoLogo from "../assets/work_logos/paggo.png";
@@ -197,6 +205,37 @@ export const projects: Project[] = [
     liveUrl: "",
     githubUrl: "",
     featured: false,
+  },
+  {
+    id: "helpdesk",
+    title: "Helpdesk Platform",
+    description: "Multi-tenant helpdesk platform with real-time ticket management",
+    longDescription: `Built a comprehensive multi-tenant helpdesk platform with serverless architecture
+    on AWS. Features include real-time ticket updates via WebSocket, role-based access control
+    (Platform Admin, Organization Admin, Service Agent, Client), email notifications via SES,
+    and a single-table DynamoDB design for efficient data access. Infrastructure fully managed
+    with Terraform for reproducible deployments.`,
+    technologies: ["React", "TypeScript", "AWS Lambda", "DynamoDB", "WebSocket", "Terraform"],
+    image: hd1,
+    images: [hd2, hd3],
+    liveUrl: "https://helpdesk.joaquinpuente.dev",
+    githubUrl: "",
+    featured: true,
+  },
+  {
+    id: "nyCloud",
+    title: "nyCloud",
+    description: "Personal cloud storage platform with drag-and-drop file management",
+    longDescription: `Developed a personal cloud file storage platform inspired by Google Drive.
+    Features include drag-and-drop file uploads, folder organization, file sharing capabilities,
+    and secure authentication via AWS Cognito. Backend powered by Hono framework with S3 for
+    storage and DynamoDB for metadata. Includes file encryption at rest using AWS KMS.`,
+    technologies: ["React", "TypeScript", "Hono", "AWS S3", "DynamoDB", "Cognito"],
+    image: ny1,
+    images: [ny2, ny3],
+    liveUrl: "",
+    githubUrl: "",
+    featured: true,
   },
 
 ];
