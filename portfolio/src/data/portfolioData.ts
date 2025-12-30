@@ -192,21 +192,6 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: "fpMarker",
-    title: "Fingerprint Marking App",
-    description: "Web application for employees to mark assistance with fingerprint",
-    longDescription: `Developed a web application connected to HID fingerprint reader for
-    employees to mark down their entrance and exit times. Fully packed to work right out
-    of the box on every store and connected directly to the database. The project also counts
-    with `,
-    technologies: ["Next.js", "Java", "Spring Boot", "MySQL"],
-    image: mcMarkImg,
-    images: [mcRegisterImg],
-    liveUrl: "",
-    githubUrl: "",
-    featured: false,
-  },
-  {
     id: "helpdesk",
     title: "Helpdesk Platform",
     description: "Multi-tenant helpdesk platform with real-time ticket management",
@@ -237,7 +222,21 @@ export const projects: Project[] = [
     githubUrl: "",
     featured: true,
   },
-
+  {
+    id: "fpMarker",
+    title: "Fingerprint Marking App",
+    description: "Web application for employees to mark assistance with fingerprint",
+    longDescription: `Developed a web application connected to HID fingerprint reader for
+    employees to mark down their entrance and exit times. Fully packed to work right out
+    of the box on every store and connected directly to the database. The project also counts
+    with `,
+    technologies: ["Next.js", "Java", "Spring Boot", "MySQL"],
+    image: mcMarkImg,
+    images: [mcRegisterImg],
+    liveUrl: "",
+    githubUrl: "",
+    featured: true,
+  },
 ];
 
 export interface Experience {
