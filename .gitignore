@@ -6,3 +6,6 @@ portfolio/dist/
 .env
 
 docs/AWS_DEPLOYMENT_GUIDE.md
+
+# Document templates (not published yet)
+docx_template/
