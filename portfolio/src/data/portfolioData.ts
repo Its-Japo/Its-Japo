@@ -144,6 +144,7 @@ export interface Project {
   liveUrl?: string;
   githubUrl?: string;
   featured: boolean;
+  greatestChallenge?: string; // Optional field for describing the biggest challenge faced
 }
 
 export const projects: Project[] = [
@@ -308,6 +309,14 @@ export interface Certificate {
 // Add your certificates here
 // Place PDF files in: public/certificates/
 export const certificates: Certificate[] = [
+  {
+    id: "ReactJrDeveloper",
+    title: "React Developer Jr level",
+    issuer: "Certificates.dev",
+    date: "2026",
+    description: "React developer Jr level certification",
+    file: "/certificates/ReactJr.pdf",
+  },
   {
     id: "AWSCloudArchitect",
     title: "AWS Cloud Architect",

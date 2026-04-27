@@ -251,6 +251,17 @@ function ProjectModal({
             {project.longDescription}
           </p>
 
+          {project.greatestChallenge && (
+            <div className="mb-6">
+              <h3 className="text-sm font-medium text-gray-400 mb-3">
+                Greatest Challenge
+              </h3>
+              <p className="text-gray-300 leading-relaxed whitespace-pre-line">
+                {project.greatestChallenge}
+              </p>
+            </div>
+          )}
+
           <div>
             <h3 className="text-sm font-medium text-gray-400 mb-3">
               Technologies Used
