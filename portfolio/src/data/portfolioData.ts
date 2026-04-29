@@ -310,6 +310,14 @@ export interface Certificate {
 // Place PDF files in: public/certificates/
 export const certificates: Certificate[] = [
   {
+    id: "ReactMidDeveloper",
+    title: "React Developer Mid level",
+    issuer: "Certificates.dev",
+    date: "2026",
+    description: "React developer Mid level certification",
+    file: "/certificates/ReactMid.pdf",
+  },
+  {
     id: "ReactJrDeveloper",
     title: "React Developer Jr level",
     issuer: "Certificates.dev",
