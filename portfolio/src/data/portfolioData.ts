@@ -32,6 +32,9 @@ import hd3 from "../assets/projects/hd_03.png";
 import ny1 from "../assets/projects/ny_01.png";
 import ny2 from "../assets/projects/ny_02.png";
 import ny3 from "../assets/projects/ny_03.png";
+// Project images - Logiaduanas
+import lg1 from "../assets/projects/lg_00.png";
+import lg2 from "../assets/projects/lg_01.png";
 
 // Work logos
 import paggoLogo from "../assets/work_logos/paggo.png";
@@ -148,6 +151,18 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  {
+    id: "logiaduanas",
+    title: "Logiaduanas GT core operations system",
+    description: "Core operations system for Logiaduanas",
+    longDescription: `This is the core operations system for Logiaduanas SA, in here they can manage all their processes, generate their excel files, chat with their clients and automate their operations`,
+    technologies: ["Bun", "MySQL", "NodeJs", "AWS", "Typescript"],
+    image: lg1,
+    images: [lg2],
+    liveUrl: "logiaduanas.inksightdev.com",
+    githubUrl: "",
+    featured: true,
+  },
   {
     id: "aiBusinessClassifier",
     title: "Ai Business Classifier",
