@@ -49,17 +49,29 @@ jobs:
             --delete \
             --cache-control "public, max-age=31536000, immutable" \
             --exclude "index.html" \
-            --exclude "*.json"
+            --exclude "*.json" \
+            --exclude "sitemap.xml" \
+            --exclude "robots.txt"
 
-          # Upload index.html and JSON files with no-cache for immediate updates
+          # Upload index.html with no-cache for immediate updates
           aws s3 cp dist/index.html s3://${{ env.S3_BUCKET }}/index.html \
-            --cache-control "public, max-age=0, must-revalidate"
+            --cache-control "public, max-age=0, must-revalidate" \
+            --content-type "text/html"
 
           # Upload any JSON files (like manifest) with short cache
           aws s3 sync dist/ s3://${{ env.S3_BUCKET }} \
             --exclude "*" \
             --include "*.json" \
             --cache-control "public, max-age=0, must-revalidate"
+
+          # Upload SEO files with explicit content types
+          aws s3 cp dist/sitemap.xml s3://${{ env.S3_BUCKET }}/sitemap.xml \
+            --cache-control "public, max-age=3600" \
+            --content-type "application/xml"
+
+          aws s3 cp dist/robots.txt s3://${{ env.S3_BUCKET }}/robots.txt \
+            --cache-control "public, max-age=3600" \
+            --content-type "text/plain"
 
       - name: Invalidate CloudFront Cache
         run: |
