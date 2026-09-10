@@ -4,40 +4,40 @@
 // ============================================
 
 // Profile picture
-import itsJapo from "../assets/me.png"
+import itsJapo from "../assets/me.webp"
 // Project images - Document Manager
-import gdLoginImg from "../assets/projects/gdLogin.png";
-import gdFileTreeImg from "../assets/projects/gdFileTree.jpeg";
-import gdFileViewerImg from "../assets/projects/gdFileViewer.jpeg";
-import gdSearchCriteriaImg from "../assets/projects/gdSearchCriteria.jpeg";
-import gdSearchResultImg from "../assets/projects/gdSearchResult.jpeg";
+import gdLoginImg from "../assets/projects/gdLogin.webp";
+import gdFileTreeImg from "../assets/projects/gdFileTree.webp";
+import gdFileViewerImg from "../assets/projects/gdFileViewer.webp";
+import gdSearchCriteriaImg from "../assets/projects/gdSearchCriteria.webp";
+import gdSearchResultImg from "../assets/projects/gdSearchResult.webp";
 // Project images - BioMark
-import mcMarkImg from "../assets/projects/mcMark.png";
-import mcRegisterImg from "../assets/projects/mcRegister.png";
+import mcMarkImg from "../assets/projects/mcMark.webp";
+import mcRegisterImg from "../assets/projects/mcRegister.webp";
 // Project images - AI Business Classifier
-import rsAiAgentImg from "../assets/projects/rsAiAgent.png";
+import rsAiAgentImg from "../assets/projects/rsAiAgent.webp";
 // Project images - Current Budget Manager
-import cbm0 from "../assets/projects/cbm_00.png";
-import cbm1 from "../assets/projects/cbm_01.png";
-import cbm2 from "../assets/projects/cbm_02.png";
-import cbm3 from "../assets/projects/cbm_03.png";
-import cbm4 from "../assets/projects/cbm_04.png";
-import cbm5 from "../assets/projects/cbm_05.png";
-import cbm6 from "../assets/projects/cbm_06.png";
+import cbm0 from "../assets/projects/cbm_00.webp";
+import cbm1 from "../assets/projects/cbm_01.webp";
+import cbm2 from "../assets/projects/cbm_02.webp";
+import cbm3 from "../assets/projects/cbm_03.webp";
+import cbm4 from "../assets/projects/cbm_04.webp";
+import cbm5 from "../assets/projects/cbm_05.webp";
+import cbm6 from "../assets/projects/cbm_06.webp";
 // Project images - Helpdesk
-import hd1 from "../assets/projects/hd_01.png";
-import hd2 from "../assets/projects/hd_02.png";
-import hd3 from "../assets/projects/hd_03.png";
+import hd1 from "../assets/projects/hd_01.webp";
+import hd2 from "../assets/projects/hd_02.webp";
+import hd3 from "../assets/projects/hd_03.webp";
 // Project images - nyCloud
-import ny1 from "../assets/projects/ny_01.png";
-import ny2 from "../assets/projects/ny_02.png";
-import ny3 from "../assets/projects/ny_03.png";
+import ny1 from "../assets/projects/ny_01.webp";
+import ny2 from "../assets/projects/ny_02.webp";
+import ny3 from "../assets/projects/ny_03.webp";
 // Project images - Logiaduanas
-import lg1 from "../assets/projects/lg_00.png";
-import lg2 from "../assets/projects/lg_01.png";
+import lg1 from "../assets/projects/lg_00.webp";
+import lg2 from "../assets/projects/lg_01.webp";
 
 // Work logos
-import paggoLogo from "../assets/work_logos/paggo.png";
+import paggoLogo from "../assets/work_logos/paggo.webp";
 import calzadoRoyLogo from "../assets/work_logos/Logo-Calzado-Roy-Blanco.webp";
 
 
